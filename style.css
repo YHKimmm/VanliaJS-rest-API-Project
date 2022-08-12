@@ -1,0 +1,49 @@
+body {
+  background-color: whitesmoke;
+  font-family: "East Sea Dokdo";
+}
+
+.container {
+  margin-top: 1em;
+}
+
+.headline {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.headline img {
+  width: 150px;
+  margin-bottom: 3em;
+}
+
+.img-size {
+  max-width: 100%;
+  max-height: 250px;
+}
+
+.contents {
+  border-bottom: 1px solid navy;
+  margin-bottom: 2em;
+  border-top: 1px solid navy;
+}
+
+.fa-solid {
+  margin: 10px;
+  color: blue;
+}
+
+.diseny-api {
+  margin-bottom: 1em;
+  color: white;
+  background-color: navy;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.container:nth-child(2) {
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+}
